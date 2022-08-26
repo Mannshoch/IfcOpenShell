@@ -101,7 +101,7 @@ void print_usage(bool suggest_help = true)
 #ifdef WITH_GLTF
 		<< "  .glb   glTF           Binary glTF v2.0\n"
 #endif
-        << "  .stp   STEP           Standard for the Exchange of Product Data\n"
+        << "  .stp   STEP (AP214)   Standard for the Exchange of Product Data\n"
         << "  .igs   IGES           Initial Graphics Exchange Specification\n"
         << "  .xml   XML            Property definitions and decomposition tree\n"
         << "  .svg   SVG            Scalable Vector Graphics (2D floor plan)\n"
@@ -438,7 +438,7 @@ int main(int argc, char** argv) {
 			"Applicable for DAE output.")
 		("site-local-placement",
 			"Place elements locally in the IfcSite coordinate system, instead of placing "
-			"them in the IFC global coords. Applicable for OBJ and DAE output.")
+			"them in the IFC global coords. Applicable for OBJ, DAE and STEP output.")
 		("y-up", "Change the 'up' axis to positive Y, default is Z UP, Applicable for OBJ output.")
 		("building-local-placement",
 			"Similar to --site-local-placement, but placing elements in locally in the parent IfcBuilding coord system")
