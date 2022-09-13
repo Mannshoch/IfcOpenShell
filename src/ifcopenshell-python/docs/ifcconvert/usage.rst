@@ -61,7 +61,7 @@ CLI Manual
       .obj   WaveFront OBJ  (a .mtl file is also created)
       .dae   Collada        Digital Assets Exchange
       .glb   glTF           Binary glTF v2.0
-      .stp   STEP           Standard for the Exchange of Product Data
+      .stp   STEP AP214    Standard for the Exchange of Product Data
       .igs   IGES           Initial Graphics Exchange Specification
       .xml   XML            Property definitions and decomposition tree
       .svg   SVG            Scalable Vector Graphics (2D floor plan)
